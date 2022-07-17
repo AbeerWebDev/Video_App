@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Youtube
+Link to project deployed with netlify. Live demo [here](https://abeers-youtube.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Content
+* General Information
+* Technologies Used
+* Features
+* Screenshot
+* Installation and Setup Instructions
+* Usage
+* Project Status
+* Room for Improvement
+* Acknowledgements
+* Contact
 
-## Available Scripts
+## General Information
+I created this website as a Youtube replica which is a video sharing platform.
 
-In the project directory, you can run:
+### Purpose of this project
+To practice web design and routing.
 
-### `npm start`
+## Technologies Used
+* ReactJS
+* HTML
+* CSS
+* JavaScript
+* Material UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+* A Home page.
+* A video page that has comments and recommendations.
+* A sign in page.
+* A dynamic logo and sign in button.
+* A dynamic dark/light mode button.
+* Used react-routing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshot
+Home Page - Light Mode
+![project screenshot](home-light-mode.png)
 
-### `npm test`
+Home Page - Dark Mode
+![project screenshot](home-dark-mode.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Video Page - Dark Mode
+![project screenshot](video-dark-mode.png)
 
-### `npm run build`
+Sign In Page - Dark Mode
+![project screenshot](signin-dark-mode.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone down this repository. You will need node and `npm` installed globally on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation:
 
-### `npm run eject`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To Run Test Suite:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To Start Server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`npm start`
 
-## Learn More
+To Visit App:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`localhost:3000/`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+**Dynamic Sign In Button**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* The sign in button will direct you to an authentication page.
 
-### Analyzing the Bundle Size
+**Dark/Light Mode**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* The dark/light mode button will toggle between the two theme options.
 
-### Making a Progressive Web App
+**Dynamic Video Cards**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* The video cards will direct you to the video, comments, and recommendations page.
 
-### Advanced Configuration
+**Dynamic Logo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* The logo button will redirect you to the home page
 
-### Deployment
+## Project Status
+Project is: Completed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Room for Improvement
+* Use local storage to save the users theme preferences, this will help avoid the redirection to home page when the Dark/Light button is clicked.
 
-### `npm run build` fails to minify
+## Acknowledgements
+* Many thanks to LamaDev.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Created by Abeer Ahmed [LinkedIn profile](add url) - feel free to contact me.
+
