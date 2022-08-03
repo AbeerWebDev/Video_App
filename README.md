@@ -14,7 +14,7 @@ Link to project deployed with netlify. Live demo [here](https://abeers-youtube.
 * Contact
 
 ## General Information
-I created this website as a Youtube replica which is a video sharing platform.
+I created this website as a Youtube replica which is a video sharing platform. It has a A home page, a video page with comments and recommendations, and a sign in page.
 
 ### Purpose of this project
 To practice web design and routing.
@@ -28,7 +28,7 @@ To practice web design and routing.
 
 ## Features
 * A Home page.
-* A video page that has comments and recommendations.
+* A video page with comments and recommendations.
 * A sign in page.
 * A dynamic logo and sign in button.
 * A dynamic dark/light mode button.
